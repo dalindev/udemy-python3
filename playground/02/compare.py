@@ -51,6 +51,6 @@
 
 # print(min(l2))
 
-mylist = [x ** 2 for x in [1, 2, 3, 4]]
+# mylist = [x ** 2 for x in [1, 2, 3, 4]]
 
-print(mylist)
+# print(mylist)

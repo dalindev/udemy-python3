@@ -1,9 +1,13 @@
 # python one.py
 
 
-def good():
-    print("print function good")
+def func():
+    print("FUNC() in one.py")
 
+
+print("TOP LEVEL in one.py")
 
 if __name__ == "__main__":
-    print("GG")
+    print("one.py is been run directly!")
+else:
+    print("one.py has been imported!")

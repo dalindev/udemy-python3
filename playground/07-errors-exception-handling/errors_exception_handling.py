@@ -2,11 +2,11 @@ def ask_for_int():
     while True:
         try:
             res = int(input("Give me a number: "))
-        except:
+        except TypeError:
             print("WOW? Not a number")
             continue
         else:
-            print("Thanks for the number")
+            print(f"Thanks for the number {res}")
             break
         finally:
             print("End of try/except/finally")

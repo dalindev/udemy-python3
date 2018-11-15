@@ -1,4 +1,12 @@
+"""
+Nothing here, sorry!
+"""
+
+
 def ask_for_int():
+    """
+    @retrun: nothing
+    """
     while True:
         try:
             res = int(input("Give me a number: "))
@@ -10,4 +18,3 @@ def ask_for_int():
             break
         finally:
             print("End of try/except/finally")
-

@@ -1,5 +1,4 @@
 # py3
-python3
 
 This course is ok for learning python3, but the code quality and practice are not ok 😂😂😂. 
 
